@@ -1,6 +1,4 @@
-# Tamil ASR for Vulnerable Populations
-
-## CrewX@LT-EDI-2025: Transformer-Based Tamil ASR with AVMD Denoising and GRU-VAD 🎯
+# CrewX@LT-EDI-2025: Transformer-Based Tamil ASR with AVMD Denoising and GRU-VAD 🎯
 
 This repository contains the implementation of our state-of-the-art Tamil Automatic Speech Recognition (ASR) system designed for elderly and transgender populations. Our approach achieved **1st place** in the LT-EDI 2025 shared task with a Word Error Rate (WER) of **31.9**.
 
