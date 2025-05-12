@@ -56,7 +56,7 @@ def main():
     model = WhisperForConditionalGeneration.from_pretrained("JairamKanna/pretrainedwhisper-medium-native-v2")
 
     # Set data path
-    root_path = "E:/Work/My Papers/LT-EDI 2025/Dataset/Training"
+    root_path = "Dataset/Training"
 
     # Create data loaders with batch size of 4
     train_loader, test_loader = get_data_loaders(root=root_path, processor=processor, tokenizer=tokenizer, batch_size=4)
@@ -90,10 +90,10 @@ def main():
         optimizer=optimizer,
         scheduler=scheduler,
         tokenizer=tokenizer,
-        log_path='E:/Work/My Papers/LT-EDI 2025/Codebase/Whisper/Train Data/Logs/whisper_medium_1.log',
+        log_path='Codebase/Whisper/Train Data/Logs/whisper_medium_1.log',
         num_epochs=1,
-        checkpoint_path='E:/Work/My Papers/LT-EDI 2025/Codebase/Whisper/Train Data/Checkpoints/whisper medium 1',
-        graph_path='E:/Work/My Papers/LT-EDI 2025/Codebase/Whisper/Train Data/Graphs/whisper_medium_1.png',
+        checkpoint_path='Codebase/Whisper/Train Data/Checkpoints/whisper medium 1',
+        graph_path='Codebase/Whisper/Train Data/Graphs/whisper_medium_1.png',
         verbose=True,
         device=device
     )
