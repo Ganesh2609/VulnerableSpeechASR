@@ -1,5 +1,14 @@
 # CrewX@LT-EDI-2025: Transformer-Based Tamil ASR with AVMD Denoising and GRU-VAD 🎯
 
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
+[![Transformers](https://img.shields.io/badge/🤗_Transformers-4.30+-yellow.svg)](https://github.com/huggingface/transformers)
+[![Whisper](https://img.shields.io/badge/OpenAI_Whisper-Medium-green.svg)](https://github.com/openai/whisper)
+[![LTEDI 2025](https://img.shields.io/badge/LT--EDI%202025-1st%20Place-gold.svg)](https://sites.google.com/view/lt-edi-2025)
+[![Speech Recognition](https://img.shields.io/badge/Task-Speech%20Recognition-purple.svg)](https://github.com/Ganesh2609/VulnerableSpeechASR)
+[![Tamil](https://img.shields.io/badge/Language-Tamil-orange.svg)](https://en.wikipedia.org/wiki/Tamil_language)
+[![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
+
 This repository contains the implementation of our state-of-the-art Tamil Automatic Speech Recognition (ASR) system designed for elderly and transgender populations. Our approach achieved **1st place** in the LT-EDI 2025 shared task with a Word Error Rate (WER) of **31.9**.
 
 ## 📋 Overview
@@ -137,6 +146,7 @@ The dataset consists of 7.5 hours of spontaneous Tamil speech targeting vulnerab
 - **Hari Krishnan N**
 - **Arun Prasad TD**
 - **Shruthikaa V**
+- **Jyothish Lal G**
 
 Amrita School of Artificial Intelligence, Coimbatore  
 Amrita Vishwa Vidyapeetham, India
